@@ -1,0 +1,25 @@
+/*Estilo del bxSlider*/
+.bx-wrapper, .bx-viewport {
+    height: 400px !important;
+}
+
+.bx-wrapper {
+    margin: 0 auto;
+}
+/**/
+
+.ubi {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.direccion, .horario{ 
+    text-align: center;
+    padding: 60px;
+}
+
+.mapa {
+    float: right;
+    margin-right: 50px;
+}

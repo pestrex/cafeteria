@@ -1,0 +1,68 @@
+/*Script para agregar estilo a mi página.*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header .contenedor footer{
+    width: 95%;
+    margin: 20px auto;
+}
+
+/*Fondo de pantalla*/
+body {
+    background:url('img/fondo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/**/
+
+/*Estilo a la imágen del header*/
+header img{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 300px;
+}
+/**/
+
+/*Estilo al menú de opciones*/
+header nav ul{
+    background-color:rgb(220, 20, 60, .9);
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header nav ul li{
+    display:inline-block;
+    text-align: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-style: bold;
+    font-size: 17px;
+    padding: 20px;
+}
+
+header nav ul li a:hover{
+    background-color:rgb(165, 42, 42, .8);
+}
+/**/
+
+/*Estilo al footer*/
+footer{
+    background-color: rgb(219, 20, 60, 0.8);
+    clear: both;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+/**/
