@@ -12,10 +12,7 @@ header .contenedor footer{
 
 /*Fondo de pantalla*/
 body {
-    background:url('img/fondo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    background-color: #fbe7c3;
 }
 /**/
 
@@ -31,7 +28,7 @@ header img{
 
 /*Estilo al menú de opciones*/
 header nav ul{
-    background-color:rgb(220, 20, 60, .9);
+    background-color:#ac8c66;
     list-style: none;
     padding: 0px;
     width: 100%;
@@ -59,7 +56,7 @@ header nav ul li a:hover{
 
 /*Estilo al footer*/
 footer{
-    background-color: rgb(219, 20, 60, 0.8);
+    background-color:#ac8c66;
     clear: both;
     font-size: 18px;
     text-align: center;
@@ -73,16 +70,21 @@ footer{
     bottom: 20px;
     right: 20px;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #84544c;
     border-radius: 50%;
     text-decoration: none;
     opacity: 0.5;
-    transition: opacity 0.3s ease-in-out;
 }
 
 .back-to-top:hover {
     opacity: 1;
 }
+
+.back-to-top img {
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
 
 
