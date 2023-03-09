@@ -1,0 +1,109 @@
+
+
+.contenedor {
+    width: 600px;
+    /*margin: 40px auto*/
+    margin: 40px;
+}
+
+.formulario .contenedor-inputs {
+    padding: 20px;
+    background: #2f2d3d;
+    border-radius: 6px 6px 0 0;
+    color: #fff;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #3a3647;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: #3a3647;
+    color: #fff;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus {
+    border-bottom: 2px solid #245eb9;
+}
+
+.formulario input[type="radio"] {
+    display: none;
+}
+
+.formulario .genero {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formulario .genero .label-radio {
+    width: 49.5%;
+}
+
+.formulario .genero .hombre {
+    border-radius: 3px 0 0 3px;
+}
+
+.formulario .genero .mujer {
+    border-radius: 0 3px 3px 0;
+}
+
+.formulario .label-radio {
+    background: #8491aa;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.formulario .label-radio:hover {
+    background: #a37437;
+}
+
+.formulario input[type="radio"]:checked + .label-radio {
+    background: #f8b054;
+    color: #fff;
+}
+
+.formulario .terminos {
+    text-align: center;
+    color: #fff
+}
+
+.formulario .terminos label {
+    margin-left: 10px;
+}
+
+.formulario .error {
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #949c9c;
+    color: #fff;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+.formulario .btn {
+    width: 100%;
+    text-align: center;
+    background: #f8b054;
+    color: #fff;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.formulario .btn:hover {
+    background: #a37437;
+}

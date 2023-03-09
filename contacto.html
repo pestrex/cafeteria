@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="formulario.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -20,7 +21,41 @@
         </nav>
     </header>
 
-    <footer></footer>
+    <div class="contenedor">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="contenedor-inputs">
+                <input type="text" name="nombre" placeholder="Nombre(s)">
+                <input type="text" name="apellido" placeholder="Apellido(s)">
+                <input type="email" name="correo" placeholder="Correo Electrónico">
+                <input type="text" name="comentario" placeholder="Comentarios">
+
+                <div class="genero">
+                    <input type="radio" name="genero" id="hombre" value="hombre">
+                    <label for="hombre" class="label-radio hombre">Hombre</label>
+
+                    <input type="radio" name="genero" id="mujer" value="mujer">
+                    <label for="mujer" class="label-radio mujer">Mujer</label>
+                    
+                </div>  
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto los términos y condiciones.</label>
+                </div>
+                <ul class="error" id="error"></ul>
+            </div>
+
+            <input type="submit" class="btn" value="Log-in">
+        </form>
+    </div>
+
+    <footer>
+        <p class="cp">Copyright 2023</p>
+        <a href="#top" class="back-to-top"><img src="img/back-to-top-white.png" alt="Botón de flecha hacia arriba"></a>  
+    </footer>
+
+
+    <script src="formulario.js"></script>
 
 </body>
 </html>
