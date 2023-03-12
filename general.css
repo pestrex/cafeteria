@@ -29,8 +29,13 @@ header .titulo{
 #titulo {
     background-color: #84544c;
     width: 500px;
+    margin: auto;
 }
 /**/
+
+header {
+    background-image: url('img/bosquecafe.webp');
+}
 
 /*Estilo al menú de opciones*/
 header nav ul{
