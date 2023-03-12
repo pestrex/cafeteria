@@ -8,18 +8,41 @@
 }
 /**/
 
-.ubi {
+h1 {
+    font-size: 50px;
+}
+
+.ubi, .horario {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#entre-semana, #fin-semana {
     width: 50%;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 45px;
+    background-color: rgba(118, 96, 70, 0.8);
+    color: antiquewhite;
+    padding: 20px auto;
+}
+
+#entre-semana {
     float: left;
 }
 
-.direccion, .horario{ 
-    width: 50%;
-    text-align: center;
-    padding: 60px;
+#fin-semana {
+    float: right;
 }
 
-.mapa {
-    float: right;
-    margin-right: 50px;
+#direccion {
+    margin: 10px;
+}
+
+#mapa iframe{
+    overflow: hidden;
+    margin-right: 50px auto;
+    max-width: 700px;
 }

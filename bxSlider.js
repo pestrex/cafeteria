@@ -4,7 +4,7 @@ $(document).ready(function(){
         auto: true,
         mode: 'fade',
         captions: false,
-        slideWidth: 800,
+        slideWidth: 700,
         responsive: true,
         pager: true
     });
