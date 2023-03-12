@@ -33,10 +33,6 @@ header .titulo{
 }
 /**/
 
-header {
-    background-image: url('img/bosquecafe.webp');
-}
-
 /*Estilo al menú de opciones*/
 header nav ul{
     background-color:#ac8c66;

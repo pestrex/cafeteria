@@ -3,8 +3,7 @@
 .contenedor {
     width: 600px;
     /*margin: 40px auto*/
-    margin: 40px;
-    
+    margin: 40px auto;
 }
 
 .formulario .contenedor-inputs {
