@@ -12,8 +12,8 @@ var formulario = document.getElementById('formulario'),
 function validarName(e) {
     if (nombre.value == '' || nombre.value == null) {
         error.style.display = 'block';
-        error.innerHTML += '<li>Complete Name </li>';
-        console.log('Please add a name');
+        error.innerHTML += '<li>Ingrese su nombre </li>';
+        console.log('Ingrese su nombre');
 
         e.preventDefault();
     } else {
@@ -26,7 +26,7 @@ function validarEmail(e) {
     if (correo.value == '' || correo.value == null) {
         error.style.display = 'block';
         error.innerHTML += '<li>Complete Email </li>';
-        console.log('Please add a email');
+        console.log('Ingrese su correo electrónico');
 
         e.preventDefault();
     } else {
