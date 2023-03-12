@@ -75,6 +75,7 @@ footer{
     border-radius: 50%;
     text-decoration: none;
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .back-to-top:hover {
@@ -86,8 +87,6 @@ footer{
     width: 30px;
     height: auto;
 }
-
-/**/
 
 
 
