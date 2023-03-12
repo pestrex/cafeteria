@@ -10,11 +10,11 @@
 
 .ubi {
     width: 50%;
-    height: 400px;
     float: left;
 }
 
 .direccion, .horario{ 
+    width: 50%;
     text-align: center;
     padding: 60px;
 }
