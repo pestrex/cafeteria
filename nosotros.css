@@ -1,0 +1,43 @@
+.primera {
+  width: 40%;
+  background: #BFC9CA;
+  float: left;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.Segunda {
+  width: 40%;
+  background: #BFC9CA;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.Tercera {
+  width: 40%;
+  background: #BFC9CA;
+  float: right;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.primera, .Segunda, .Tercera {
+  height: 600px;
+}
+
+.primera, .Segunda, .Tercera {
+  max-width: 425px;
+}
+
