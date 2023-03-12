@@ -16,13 +16,18 @@ body {
 }
 /**/
 
-/*Estilo a la imágen del header*/
-header img{
+/*Estilo al titulo*/
+header .titulo{
     display: inline-block;
+    width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
-    width: 300px;
+    text-align: center;
+}
+
+#titulo {
+    background-color: #84544c;
 }
 /**/
 
