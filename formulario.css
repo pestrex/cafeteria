@@ -3,8 +3,18 @@
 .contenedor {
     width: 600px;
     /*margin: 40px auto*/
-    margin: 40px;
-    
+    margin: 40px auto;
+}
+
+.contacto {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#contacto {
+    text-align: center;
+    font-size: 50px;
 }
 
 .formulario .contenedor-inputs {

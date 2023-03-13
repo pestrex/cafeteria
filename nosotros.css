@@ -1,47 +1,44 @@
-
-
 .primera {
-  width: 40%;
-  background: #BFC9CA;
   float: left;
-  font-size: 12px;
-  letter-spacing: 1px;
-  line-height: 24px;
-  padding: 50px;
-  box-sizing: border-box;
 }
 
 .Segunda {
-  width: 40%;
-  background: #BFC9CA;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 12px;
-  letter-spacing: 1px;
-  line-height: 24px;
-  padding: 50px;
-  box-sizing: border-box;
 }
 
 .Tercera {
-  width: 40%;
-  background: #BFC9CA;
   float: right;
-  font-size: 12px;
+}
+
+.primera, .Segunda, .Tercera {
+  width: 40%;
+  height: 700px;
+  background: hsla(32, 26%, 37%, 0.8);
   letter-spacing: 1px;
   line-height: 24px;
+  max-width: 425px;
   padding: 50px;
+  margin: 10px;
   box-sizing: border-box;
 }
 
-.primera, .Segunda, .Tercera {
-  height: 600px;
+.primera p, .Segunda p, .Tercera p {
+  font-size: 18px;
 }
 
-.primera, .Segunda, .Tercera {
-  max-width: 425px;
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: antiquewhite;
 }
+
+h3 {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
 /*centar imagenes*/
 aside img {
   display: block;
