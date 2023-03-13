@@ -38,8 +38,8 @@ function validarEmail(e) {
 function validarPassword(e) {
     if (contraseña.value == '' || contraseña.value == null) {
         error.style.display = 'block';
-        error.innerHTML += '<li>Complete Password </li>';
-        console.log('Please add a password');
+        error.innerHTML += '<li>Ingrese sus apeliidos </li>';
+        console.log('Ingrese sus apeliidos');
 
         e.preventDefault();
     } else {
@@ -51,8 +51,8 @@ function validarPassword(e) {
 function validarGender(e) {
     if (genero.value == '' || genero.value == null) {
         error.style.display = 'block';
-        error.innerHTML += '<li>Select a gender </li>';
-        console.log('Please select a gender');
+        error.innerHTML += '<li>Seleccione su género </li>';
+        console.log('Seleccione su género');
 
         e.preventDefault();
     } else {
@@ -64,8 +64,8 @@ function validarGender(e) {
 function validarTerms(e) {
     if (terminos.checked == false) {
         error.style.display = 'block';
-        error.innerHTML += '<li>Agree terms & conditions </li>';
-        console.log('Please agree terms & conditions');
+        error.innerHTML += '<li>Acepte los términos y condiciones </li>';
+        console.log('Acepte los términos y condiciones');
 
         e.preventDefault();
     } else {
