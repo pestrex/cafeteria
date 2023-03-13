@@ -1,5 +1,3 @@
-
-
 .contenedor {
     width: 600px;
     /*margin: 40px auto*/
@@ -19,9 +17,9 @@
 
 .formulario .contenedor-inputs {
     padding: 20px;
-    background: #2f2d3d;
+    background: #935a3a;
     border-radius: 6px 6px 0 0;
-    color: #fff;
+    color: #593425;
 }
 
 .formulario input[type="text"],
@@ -31,11 +29,11 @@
     margin-bottom: 20px;
     padding: 15px 10px;
     border: none;
-    border-bottom: 2px solid #3a3647;
+    border-bottom: 2px solid #d7986d;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    background: #3a3647;
-    color: #fff;
+    background: #d7986d;
+    color: #593425;
 }
 
 .formulario input[type="text"]:focus,
@@ -67,7 +65,7 @@
 }
 
 .formulario .label-radio {
-    background: #8491aa;
+    background: #877372;
     color: #fff;
     padding: 10px 10px;
     text-align: center;
@@ -95,7 +93,7 @@
     display: none;
     margin-top: 20px;
     border-radius: 3px;
-    background: #949c9c;
+    background: #8499b1;
     color: #fff;
     padding: 15px 10px;
     padding-left: 40px;

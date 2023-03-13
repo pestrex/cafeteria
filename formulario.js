@@ -3,7 +3,7 @@
 var formulario = document.getElementById('formulario'),
     nombre = formulario.nombre,
     correo = formulario.correo,
-    contraseña = formulario.contraseña,
+    comentarios = formulario.comentarios,
     genero = formulario.genero,
     terminos = formulario.terminos,
     error = document.getElementById('error');
@@ -25,7 +25,7 @@ function validarName(e) {
 function validarEmail(e) {
     if (correo.value == '' || correo.value == null) {
         error.style.display = 'block';
-        error.innerHTML += '<li>Complete Email </li>';
+        error.innerHTML += '<li>Ingrese su correo electrónico </li>';
         console.log('Ingrese su correo electrónico');
 
         e.preventDefault();
@@ -34,9 +34,9 @@ function validarEmail(e) {
     }
 }
 
-//Función para validar que se haya introducido alguna contraseña
-function validarPassword(e) {
-    if (contraseña.value == '' || contraseña.value == null) {
+//Función para validar que se haya introducido alguna comentarios
+function validarComments(e) {
+    if (comentarios.value == '' || comentarios.value == null) {
         error.style.display = 'block';
         error.innerHTML += '<li>Ingrese sus apeliidos </li>';
         console.log('Ingrese sus apeliidos');
