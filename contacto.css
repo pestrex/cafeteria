@@ -19,7 +19,7 @@
 
 .formulario .contenedor-inputs {
     padding: 20px;
-    background: #2f2d3d;
+    background: #bd8a62;
     border-radius: 6px 6px 0 0;
     color: #fff;
 }
@@ -31,10 +31,10 @@
     margin-bottom: 20px;
     padding: 15px 10px;
     border: none;
-    border-bottom: 2px solid #3a3647;
+    border-bottom: 2px solid #efc8a7;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    background: #3a3647;
+    background: #efc8a7;
     color: #fff;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .formulario .label-radio {
-    background: #8491aa;
+    background: #877372;
     color: #fff;
     padding: 10px 10px;
     text-align: center;
@@ -104,7 +104,7 @@
 .formulario .btn {
     width: 100%;
     text-align: center;
-    background: #f8b054;
+    background: #935a3a;
     color: #fff;
     border: none;
     display: block;
@@ -116,5 +116,5 @@
 }
 
 .formulario .btn:hover {
-    background: #a37437;
+    background: #593425;
 }
